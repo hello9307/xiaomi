@@ -1,0 +1,94 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-20 14:49:24
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-21 10:02:53
+*/
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+
+/* top-hero */
+#top-hero .container{
+	position: relative;
+}
+#top-hero .myLeft{
+	height: 365.813px;
+	background-color: #000;
+	padding: 5px 0;
+}
+#top-hero .myLeft>ul>li a{
+	display: inline-block;
+	width: 90%;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	color: #fff;
+}
+#top-hero .myLeft>ul>li:hover{
+	background-color: orange;
+}
+#top-hero .myLeft>ul>li:hover a{
+	text-decoration: none;
+}
+#top-hero .myLeft>ul>li>span{
+	font-size: 14px;
+	color: #fff;
+}
+#top-hero .myLeft .myPull{
+	display: none;
+	height: 365.813px;
+	width: 200px;
+	position: absolute;
+	left: 195px;
+	top: 0;
+	z-index: 2;
+	background-color: #fff;
+	padding-left: 15px;
+}
+#top-hero .myLeft .myContent{
+	height: 60px;
+	line-height: 60px;
+}
+#top-hero .myRow{
+	padding: 0 10px;
+	height: 60px;
+	line-height: 60px;
+}
+#top-hero .myContent{
+	width: 800px;
+}
+#myNone{
+	margin: 0;
+	padding: 0;
+}
+#top-hero .myPull span{
+	line-height: 18px;
+	padding: 0 13px;
+	display: inline-block;
+	border: 1px solid orange;
+	color: orange;
+}
+/* #top-hero .myLeft>ul>li a */
+#top-hero .myLeft .myPull a{
+	padding: 0;
+	color: #000;
+}
+#top-hero .myPull a:hover{
+	text-decoration: none;
+	color: orange;
+}
+
+
+
+#top-hero .myRight{
+	padding: 0;
+}
+
+
+
+

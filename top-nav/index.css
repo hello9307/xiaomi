@@ -1,0 +1,52 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-20 23:40:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-21 09:58:32
+*/
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.myNavbar{
+	background-color: #222;
+	min-height: 40px;
+	margin: 0;
+	border: 0px;
+}
+#top-nav .nav>li>a{
+	font-size: 12px;
+	padding: 10px 5px;
+}
+#top-nav .nav>li>a:hover{
+	color: #fff;
+}
+#top-nav .nav .rule a{
+	padding: 10px 0;
+}
+#top-nav .nav .rule a:hover{
+	color: #777;
+}
+#top-nav .nav .myDropdown div{
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+	height: 0px;
+	text-align: center;
+	transition: height 0.5s;
+	overflow: hidden;
+}
+#top-nav .nav .myDropdown div a{
+	display: none;
+}
+#top-nav .nav .myDropdown:hover div{
+	height: 70px;
+	line-height: 70px;
+	border: 1px solid #ddd;
+}
+#top-nav .nav .myDropdown:hover div a{
+	display: block;
+}
